@@ -1,0 +1,22 @@
+.popup--wrapper {
+    position: fixed;
+    left: 50%;
+    z-index: 3;
+    top: 20%;
+    transform: translateX(-50%);
+    height: 400px;
+    width: 500px;
+    box-shadow: 0 6px 30px #0e1e3e14;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    .close-button {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        opacity: 0.7;
+        width: 15px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
